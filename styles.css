@@ -7,13 +7,13 @@
 header{
     height: 100px;
     width: auto;
-    background-color:tomato;
+    background-color:rgb(19, 17, 17);
     
 }
 
 a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 24px;
     font-weight:300;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -30,4 +30,29 @@ nav ul li{
     margin: 30px;
     list-style-type: none;
     padding-right: 50px;
+}
+
+#home{
+    background-image: url(pexels-eberhardgross-1062249.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    height: 650px;
+    width: 100%;
+    color: white;
+}
+
+#home div{
+    padding: 20%;
+}
+
+#home div h1{
+    font-size: 48px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+#home div p{
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
 }
