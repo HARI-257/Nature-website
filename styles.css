@@ -56,3 +56,22 @@ nav ul li{
     font-weight: 600;
     color: black;
 }
+
+#about{
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#about div{
+    margin: 10px;
+    width: 50%;
+}
+
+#about div p{
+    letter-spacing: 1px;
+    word-spacing: 1.6px;
+    line-height: 1.4;
+}
