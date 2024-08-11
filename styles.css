@@ -57,7 +57,7 @@ nav ul li{
     color: black;
 }
 
-#about{
+#about {
     height: 300px;
     padding: 20px;
     display: flex;
@@ -75,3 +75,45 @@ nav ul li{
     word-spacing: 1.6px;
     line-height: 1.4;
 }
+
+#contact{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact div{
+    /* margin: 30%; */
+    padding: 3.5%;
+    width: 50%;
+}
+
+#contact form label{
+    font-size: 24px;
+    font-style: italic;
+
+}
+
+#contact form input{
+    outline: none;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 12px 50px;
+    margin:20px 0 ;
+    font-size: 20px;
+}
+
+#contact form button{
+    border-radius: 7px;
+    padding: 12px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: black;
+    color: white;    
+}
+
+#contact h2{
+    text-align: end;
+}
+
