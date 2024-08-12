@@ -1,6 +1,8 @@
 let btn = document.getElementById('btn')
-let mail = document.getElementById('email')
+let mail = document.getElementById('mail')
 btn.onclick = () =>{
-    alert(mail+" Nature got notified about you")
+    alert(mail.value+" Nature got notified about you")
 }
+
+console.log(mail)
 
